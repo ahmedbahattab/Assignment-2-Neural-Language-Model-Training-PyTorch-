@@ -65,8 +65,6 @@ Additional packages:
 pip install torch numpy matplotlib
 ```
 
-This ensured a clean and reproducible environment.
-
 ---
 
 # **2. Dataset Preparation**
@@ -85,8 +83,6 @@ Steps followed:
 ```
 data/Pride_and_Prejudice_CLEANED.txt
 ```
-
-This file was later used for vocabulary building and training.
 
 ---
 
@@ -114,7 +110,7 @@ A 90/10 split was used for **train/validation** sets.
 
 # **4. Model Architecture**
 
-I implemented a simple, student-friendly LSTM model:
+I implemented a simple LSTM model:
 
 ```python
 class SimpleLSTM(nn.Module):
@@ -130,7 +126,7 @@ class SimpleLSTM(nn.Module):
         return self.fc(out[:, -1, :])
 ```
 
-No pretrained models, no high-level libraries — everything coded manually.
+No pretrained models, no high-level libraries  everything coded manually.
 
 ---
 
