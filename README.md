@@ -140,7 +140,7 @@ To demonstrate understanding of model capacity, I trained three configurations.
 
 ---
 
-## 🔵 **A. Underfitting**
+##  **A. Underfitting**
 
 **Model:** Extremely small
 
@@ -154,11 +154,10 @@ To demonstrate understanding of model capacity, I trained three configurations.
 * Very slow learning
 * Perplexity remained high
 
-✔ Classic underfitting.
 
 ---
 
-## 🟢 **B. Best-Fit Model**
+##  **B. Best-Fit Model**
 
 **Model:** Balanced size
 
@@ -173,11 +172,10 @@ To demonstrate understanding of model capacity, I trained three configurations.
 * Best perplexity
 * No signs of under/over-fitting
 
-✔ Selected as the final model.
 
 ---
 
-## 🔴 **C. Overfitting**
+##  **C. Overfitting**
 
 **Model:** Larger network + tiny dataset
 
@@ -193,7 +191,6 @@ To demonstrate understanding of model capacity, I trained three configurations.
 * Validation loss started increasing
 * Perplexity worsened
 
-✔ Clear overfitting (expected).
 
 ---
 
